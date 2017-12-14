@@ -1,4 +1,4 @@
-### **1062 - Laser Sculpture**#<br/>
+### **1062 - Laser Sculpture**<br/>
 #### Description<br/>
 Since its invention, in 1958, the laser has been used in a huge variety of applications, like electronic equipment, cirurgical instruments, weapons, and much more. <br/>
 ![laser Example](http://coj.uci.cu/images/problemas/laserimg1.jpg)<br/>
@@ -9,14 +9,17 @@ Write a program that, given the height and the length of the block, and its fina
 The input contains several test cases. Each test case is composed by two lines. The first line of a test case contains two integers **A** and **C**, separated by a blank space, indicating, respectively, the height **(1 <= A <= 10^4)** and the length **(1 <= C <= 10^4)** of the block to be sculpted, in milimeters. The second line contains **C** integers **Xi**, each one indicating the final height, in milimeters of the block between the positions **i** and **i + 1** through the length **(0 <= Xi <= A, for 0 <= i <= C-1)**. Consider that on each step, a layer of width 1 mm is removed on the parts of the block where the laser is turned on. The end of the input is indicated by a line that contains only two zeros, separated by a blank space.<br/>
 #### Output specification<br/>
 For each test case, your program must print a single line, containing an integer, indicating the number of times that the laser must be turned on to sculpt the block in the indicated format.<br/>
-|Sample Input | Sample Output|
-|---|---|
-|5 8|7|
-|1 2 3 2 0 3 4 5|3|
-|3 3|3|
-|1 0 2| |
-|4 3| |
-|4 4 1| |
-|0 0| |
+#### Sample Input<br/>
+`5 8`<br/>
+`1 2 3 2 0 3 4 5`<br/>
+`3 3`<br/>
+`1 0 2`<br/>
+`4 3`<br/>
+`4 4 1`<br/>
+`0 0`<br/>
+#### Sample Output<br/>
+`7`<br/>
+`3`<br/>
+`3`<br/>
 <br/>
 [Link to Problem](http://coj.uci.cu/24h/problem.xhtml?pid=1062)
