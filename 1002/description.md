@@ -7,8 +7,8 @@ La primera línea de la entrada contiene un entero **T (1 <= T <= 100)**, que re
 #### Output specification<br/>
 Para cada caso de prueba, imprima en una línea aparte el tamaño del mayor cuadrado que se pueda construir en el área libre. 
 #### Sample Input<br/>
-`2`
-`10`
+`2`<br/>
+`10`<br/>
 `..........`<br/>
 `.#####....`<br/>
 `..#..###..`<br/>
